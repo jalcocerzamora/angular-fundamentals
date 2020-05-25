@@ -1,0 +1,18 @@
+<section class="border-b py-8">
+  <div class="mt-12 lg:mt-20">
+    <div class="container bg-white max-w-5xl mx-auto m-8">
+      <h1>
+        Oops! That page doesn't exist. Please select a link below.
+      </h1>
+
+      <ul class="flex border-b">
+        <li class="-mb-px mr-1">
+          <a [routerLink]="['/']" routerLinkActive="active"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Home</button></a>
+        </li>
+        <li class="mr-1">
+          <a [routerLink]="['/search']" routerLinkActive="active"><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search For Repositories</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
