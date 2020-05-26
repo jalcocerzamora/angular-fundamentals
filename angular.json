@@ -121,6 +121,9 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
+            "baseHref": "https://jalcocerzamora.github.io/angular-fundamentals",
+            "name": "Angular Fundamentals",
+            "email": "jalcocerzamora@gmail.com"
           }
         }
       }
