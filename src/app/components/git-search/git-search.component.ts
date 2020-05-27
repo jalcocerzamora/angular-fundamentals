@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { GitSearchService } from './../git-search.service';
-import { GitSearch } from '../git-search';
+import { GitSearchService } from '../../services/git-search.service';
+import { GitSearch } from '../../models/git-search';
 
 @Component({
   selector: 'app-git-search',
